@@ -3,7 +3,7 @@ terraform {
     hostname     = "app.terraform.io"
     organization = "hycho-training"
     workspaces {
-      name = "test"
+      name = "SDS-demo-02-gh-actions"
     }
   }
 }
