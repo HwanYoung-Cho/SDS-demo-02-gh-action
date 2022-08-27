@@ -127,6 +127,6 @@ resource "aws_instance" "tfdemo" {
               systemctl restart apache2
               EOF
   tags = {
-    Name = "${var.prefix}-sds-action-02"
+    Name = "${var.prefix}-sds-action-01"
   }
 }
