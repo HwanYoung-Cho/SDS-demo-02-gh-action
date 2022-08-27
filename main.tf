@@ -123,7 +123,7 @@ resource "aws_instance" "tfdemo" {
               apt-get update
               apt-get install -y apache2
               sed -i -e 's/80/8080/' /etc/apache2/ports.conf
-              echo "SamsungSDS Terraform Demo" > /var/www/html/index.html
+              echo "SamsungSDS Terraform Github actions Demo" > /var/www/html/index.html
               systemctl restart apache2
               EOF
   tags = {
