@@ -7,19 +7,6 @@ terraform {
   }
 }
 
-variable "aws_access_key" {
-  type    = string
-  default = "AKIASM6QOLWYA32OUZBW"
-}
-variable "aws_secret_key" {
-  type    = string
-  default = "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"
-}
-variable "aws_region" {
-  type    = string
-  default = "us-east-2"
-}
-
 provider "aws" {
   access_key    = var.aws_access_key
   secret_key    = var.aws_secret_key
