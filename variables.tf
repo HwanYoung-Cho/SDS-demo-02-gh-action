@@ -4,15 +4,6 @@ variable "prefix" {
 variable "key_pair" {
   default = "hycho-poc"
 }
-variable "aws_access_key" {
-  default = "AKIASM6QOLWYA32OUZBW"
-}
-variable "aws_secret_key" {
-  default = "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"
-}
-variable "aws_region" {
-  default = "us-east-2"
-}
 variable "region" {
   description = "The region where the resources are created."
   default     = "us-east-2"
